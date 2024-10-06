@@ -1,0 +1,24 @@
+{
+  "name": "bajeti-app",
+  "version": "1.0.0",
+  "main": "chart.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "express": "^4.21.0",
+    "jsdom": "^24.1.1",
+    "util": "^0.12.5"
+  }
+}
